@@ -22,6 +22,7 @@ function Languages({ language, onLanguageChange }) {
 }
 
 const LANGUAGES = [
+  { label:"Romanian",value:"ro"},
   { label: "Afrikaans", value: "af" },
   { label: "Arabic", value: "ar" },
   { label: "French", value: "fr" },
@@ -33,6 +34,7 @@ const LANGUAGES = [
   { label: "Spanish", value: "es" },
   { label: "Swahili", value: "sw" },
   { label: "Thai", value: "th" }
+  
 ];
 
 export default Languages;
